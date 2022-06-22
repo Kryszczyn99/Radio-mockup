@@ -1,0 +1,122 @@
+#background_deeper {
+    -fx-background-color: #2d3134;
+    -fx-border-style: solid;
+    -fx-border-radius: 4;
+    -fx-border-width: 5;
+    -fx-border-color:
+                    linear-gradient(to right,#404040,#b3b3b3,#919191,#cecece,#909090,#ababab,#919191,#cecece,#909090,#ababab,#919191,#cecece,#909090,#ababab,#d5d5d5,#6a6a6a)
+                    linear-gradient(to bottom,#6a6a6a,#d5d5d5,#d7d7d7,#d5d5d5,#c4c4c4,#d7d7d7,#d5d5d5,#c4c4c4,#d7d7d7,#d5d5d5,#c4c4c4,#d7d7d7,#d5d5d5,#c4c4c4,#676767)
+                    linear-gradient(to right,#666666,#2f2f2f,#2d2d2d,#333333,#2d2d2d,#2f2f2f,#333333,#2d2d2d,#2f2f2f,#333333,#2d2d2d,#2f2f2f,#333333,#2d2d2d,#2f2f2f,#333333,#2d2d2d,#2f2f2f,#676767)
+                    linear-gradient(to top,#666666,#dbdbdb,#d5d5d5,#d0d0d0,#dbdbdb,#d5d5d5,#d0d0d0,#dbdbdb,#d5d5d5,#d0d0d0,#dbdbdb,#d5d5d5,#d0d0d0,#404040);
+}
+#background {
+    -fx-border-radius: 15;
+    -fx-border-width: 5;
+    -fx-border-color:
+                    linear-gradient(to bottom,#29282d,#6c6c71,#7f807f)
+                    linear-gradient(to right,#7f807f,#6c6c71,#29282d)
+                    linear-gradient(to top,#29282d,#6c6c71,#7f807f)
+                    linear-gradient(to right,#29282d,#6c6c71,#7f807f);
+
+}
+#button:pressed {
+    -fx-border-width: 3px;
+}
+#button {
+    -fx-background-color: linear-gradient(to bottom,#78757f, #6f6b6a,#5f655e,#45423e, #403a33,#3b352d,#1d1e1f,#352e2c,#494343,#4c4740);
+    -fx-text-fill: #f6940b;
+    -fx-border-width: 2;
+    -fx-border-color: #242326;
+    -fx-border-radius: 3;
+}
+#text {
+    -fx-background-color: #f6940b;
+    -fx-border-width: 4px 7px 7px 7px;
+    -fx-border-radius: 10;
+    -fx-background-radius: 20;
+    -fx-border-color:
+                    linear-gradient(to right,#4a4242,#3b362c,#3b362c,#3b362c,#3b362c,#3b362c,#3b362c,#3b362c,#3b362c,#4a4242)
+                    linear-gradient(to top,#83757b,#4a4242,#4a4242,#4a4242,#4a4242)
+                    linear-gradient(to left,#83757b,#695650,#695650,#695650,#695650,#695650,#695650,#695650,#695650,#83757b)
+                    linear-gradient(to top,#83757b,#4a4242,#4a4242,#4a4242,#4a4242);
+}
+
+#betweenbuttons {
+    -fx-background-color: linear-gradient(to bottom,#78757f, #6f6b6a,#5f655e,#45423e, #403a33,#3b352d,#1d1e1f,#352e2c,#494343,#4c4740);
+    -fx-text-fill: #f6940b;
+    -fx-border-width: 2px 0px 2px 0px;
+    -fx-border-color: #242326;
+}
+
+#usb {
+    -fx-background-image: url("usb_closed.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+#usb:selected {
+    -fx-background-image: url("usb_opened.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+
+#double_up_arrow {
+    -fx-background-image: url("double_arrow_up.png");
+    -fx-background-color: linear-gradient(to bottom,#78757f, #6f6b6a,#5f655e,#45423e, #403a33,#3b352d,#1d1e1f,#352e2c,#494343,#4c4740);
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #242326;
+}
+
+#double_down_arrow {
+    -fx-background-image: url("double_arrow_down.png");
+    -fx-background-color: linear-gradient(to bottom,#78757f, #6f6b6a,#5f655e,#45423e, #403a33,#3b352d,#1d1e1f,#352e2c,#494343,#4c4740);
+    -fx-border-width: 2px 2px 2px 2px;
+    -fx-border-color: #242326;
+}
+
+
+
+#pokretlo1 {
+    -fx-background-image: url("pokretlo3.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+
+#pokretlo2 {
+    -fx-background-image: url("pokretlo3.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+#media:pressed {
+    -fx-border-width: 3px;
+}
+#media {
+    -fx-background-image: url("media_icon.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+    -fx-background-color: linear-gradient(to bottom,#78757f, #6f6b6a,#5f655e,#45423e, #403a33,#3b352d,#1d1e1f,#352e2c,#494343,#4c4740);
+    -fx-border-width: 2;
+    -fx-border-color: #242326;
+    -fx-border-radius: 3;
+}
+
+#dot {
+    -fx-background-color: #4b4a4e;
+    -fx-border-width: 2px;
+    -fx-border-color: black;
+    -fx-border-radius: 50px;
+}
+#disk:pressed {
+    -fx-border-width: 3px;
+}
+#disk {
+    -fx-background-image: url("disk.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+}
+
+#logo {
+    -fx-background-image: url("logo2.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 100% 100%;
+    -fx-background-color: #2d3134;
+}
